@@ -36,17 +36,7 @@
 	- WtDtServo		数据伺服器，用于提供实时的数据随机访问接口
 + ***Parsers***
 	Parsers包含了所有的行情解析器模块代码
-	- ParserCTP		(期)对接CTP行情通道的行情解析器
-	- ParserCTPMini	(期)对接CTPMini行情通道的行情解析器
-	- ParserFemas	(期)对接飞马行情通道的行情解析器
 	- ParserYD		(期)对接易达期货行情通道的行情解析器
-	- ParserXeleSkt	(期)对接艾克朗科组播行情通道的行情解析器	
-	- ParserCTPOpt	(权)对接CTPOpt期权行情通道的行情解析器
-	- ParserMA		(权)对接金证期权maOpt期权行情通道的行情解析器
-	- ParserAres	(权)对接QWIN期权行情通道的行情解析器
-	- ParserHuax	(股)对接华鑫证券奇点行情接口的行情解析器
-	- ParserXTP		(股)对接XTP行情通道的行情解析器
-	- ParserOES		(股)对接宽睿行情通道的行情解析器
 	- ParserUDP		对接数据组件*UDP*广播的行情数据通道的解析器
 + ***Plugins***
 	Plugins包含了交易框架外部插件的项目代码
@@ -63,18 +53,7 @@
 	- WtRunner		同*WtBtRunner*，实盘框架纯C++环境运行的入口
 + ***Traders***
 	Traders包含了所有的交易通道的模块代码
-	- TraderCTP		(期)CTP柜台交易通道对接模块
-	- TraderCTPMini	(期)CTPMini柜台交易通道对接模块
-	- TraderFemas	(期)飞马柜台交易通道对接模块
 	- TraderYD		(期)易达柜台交易通道对接模块
-	- TraderCTPOpt	(权)CTPOpt交易通道对接模块
-	- TraderAresClt	(权)QWIN交易通道对接模块
-	- TraderMAOpt	(权)金证期权maOpt交易通道对接模块
-	- TraderXTP		(股)XTP柜台交易通道对接模块
-	- TraderXTPXAlgo	(股)XTP算法交易通道对接模块
-	- TraderATP		(股)华锐交易通道对接模块
-	- TraderOES		(股)宽睿交易通道对接模块
-	- TraderHuaX	(股)华鑫奇点交易通道对接模块
 	- TraderMocker	纯本地仿真撮合模块，广泛适用于各种品种的仿真交易，减少对仿真环境的依赖，只需要接入行情就可以进行仿真交易测试
 + ***UltraFT***
 	- WtUftCore		超高频引擎核心模块
