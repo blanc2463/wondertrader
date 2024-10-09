@@ -61,8 +61,6 @@
 	- WtUftRunner	超高频引擎实盘运行入口程序
 + ***Tools***
 	- CTPLoader		CTP合约加载模块
-	- MiniLoader	CTPMini合约加载模块
-	- CTPOptLoader	CTPOpt合约加载模块
 	- LoaderRunner	合约加载器模块运行入口程序
 	- TraderDumper	交易数据落地模块，主要用于实时转储交易接口的数据
 	- WtMsgQue		消息队列MQ模块，将nanomsg封装成了C接口，便于调用
